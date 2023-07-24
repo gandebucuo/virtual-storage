@@ -27,9 +27,9 @@ use VirtualCloud\Init;
         'bucket'            => 'xi**un',
         'domain'            => 'oss***.aliyuncs.com',
     ]
-    // Ali  阿里云
-    // Tencent 腾讯云
-    // QiNiu  七牛云
+    // Ali      阿里云
+    // Tencent  腾讯云
+    // QiNiu    七牛云
     $new    = Init::make(Ali,$config,$fileName,$filePath);
     //上传文件
     $result = $new->uploadFile();
