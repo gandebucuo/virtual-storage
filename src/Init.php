@@ -1,9 +1,9 @@
 <?php
 namespace VirtualCloud;
 
-define ('Ali', 'AliyunProvider');
-define ('QiNiu', 'QiNiuyunProvider');
-define ('Tencent', 'TencentyunProvider');
+define ('Ali', 'AliProvider');
+define ('QiNiu', 'QiNiuProvider');
+define ('Tencent', 'TencentProvider');
 
 class Init
 {
