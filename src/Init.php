@@ -11,7 +11,7 @@ class Init
     {
         $namespace = ucfirst($name);
 
-        $application = "\\Composer\\Providers\\{$namespace}";
+        $application = "\\VirtualCloud\\Providers\\{$namespace}";
 
         return new $application($config,$oss_file_path,$upload_file_path);
     }
