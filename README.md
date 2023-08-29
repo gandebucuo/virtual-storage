@@ -20,7 +20,7 @@ composer require virtual-cloud/storage
 use VirtualCloud\Init;
 ...
     //云存储生成文件名称
-    $fileName = 'cloud/test.png'；    
+    $fileName = 'cloud/test.png';    
     //本地上传文件    
     $filePath = 'D:\logo.png';  
     $config   =  [
@@ -28,7 +28,7 @@ use VirtualCloud\Init;
         'access_key_secret' => '2Ta711***mYXwF333',
         'bucket'            => 'xi**un',
         'domain'            => 'oss***.aliyuncs.com',
-    ]
+    ];
     // Ali      阿里云
     // Tencent  腾讯云
     // QiNiu    七牛云
