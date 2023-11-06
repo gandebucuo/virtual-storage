@@ -58,7 +58,7 @@ $config = [
     'sk'       => 'WjQlby****gzDBAmn',
     'bucket'   => 'vi***oud',
     'domain'   => 'ry6by***uddn.com',
-    'area'     => 'http://up-z2.qiniup.com'
+    'area'     => 'http://up-z2.qiniup.com'  //https://developer.qiniu.com/kodo/1671/region-endpoint-fq 根据存储区域；选择上传域名
 ]
 
 //腾讯云
